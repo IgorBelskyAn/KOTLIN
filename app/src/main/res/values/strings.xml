@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinStart</string>
+    <string name="text">Как вас зовут?</string>
+</resources>

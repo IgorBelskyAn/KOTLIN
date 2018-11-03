@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.igor.kotlinstart.Main2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Привет"
+            android:textSize="26sp"
+            android:paddingLeft="30dp"
+            android:paddingTop="30dp"
+            android:textColor="#000"
+            />
+        <Button
+            android:onClick="click"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            android:background="@drawable/btn_design"
+            android:text="Вернуться"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
